@@ -4,8 +4,7 @@ RESPONSE=403
 SLEEP_TIME="60"
 EMAIL="test@gmail.com"
 
-while [ $RESPONSE -eq 403 ] 
-do
+while [ $RESPONSE -eq 403 ]; do
     sleep ${SLEEP_TIME}
     RESPONSE=$(curl -s -o /dev/null -w "%{http_code}" ${1})
     echo $RESPONSE

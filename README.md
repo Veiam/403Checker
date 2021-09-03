@@ -1,4 +1,7 @@
-# 403Checker
+# Seashells by the Seashorepheus
+Bash scripts I created for personal usages go here.
+
+## 403Checker
 Simple Bash Program to check whether or not the curl returns a 403 response.
 I created this to alert myself when the Costco item comes back in stock.
 
