@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RESPONSE=403
+RESPONSE=$(curl -s -o /dev/null -w "%{http_code}" ${1})
 SLEEP_TIME="60"
 EMAIL="test@gmail.com"
 
